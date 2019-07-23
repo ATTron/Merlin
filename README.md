@@ -1,7 +1,7 @@
 # Merlin
 Merlin is a video encoder that automatically monitors for new video files and begins converting them via the HandBrakeCLI
 
-## SETUP
+## Setup
 **Currently this project only supports Linux as it uses the inotify API for file system monitoring**
 
 * Pull latest release
@@ -14,7 +14,7 @@ Merlin is a video encoder that automatically monitors for new video files and be
     sudo make install
 ```
 
-You can find a generated **config.json** in ``` > /etc/merlin/ ```
+You can find a generated **config.json** in ``` /etc/merlin/ ```
 
 The config.json file takes the following arguments:
     * WatchDir  <- The directory for Merlin to watch
@@ -22,5 +22,7 @@ The config.json file takes the following arguments:
     * Encoder   <- The chosen encoder format (run HandBrakeCLI --help to see list of available encoder formats)
     * Preset    <- The HandBrakeCLI presets (run HandBrakeCLI -z to see available video presets)
 
-* Run merlin with ``` make start ```
+```
+   make start 
+```
 
