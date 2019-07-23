@@ -17,10 +17,12 @@ Merlin is a video encoder that automatically monitors for new video files and be
 You can find a generated **config.json** in ``` /etc/merlin/ ```
 
 The config.json file takes the following arguments:
-    * WatchDir  <- The directory for Merlin to watch
-    * OutputDir <- Directory that Merlin will store output files
-    * Encoder   <- The chosen encoder format (run HandBrakeCLI --help to see list of available encoder formats)
-    * Preset    <- The HandBrakeCLI presets (run HandBrakeCLI -z to see available video presets)
+```
+   WatchDir  <- The directory for Merlin to watch
+   OutputDir <- Directory that Merlin will store output files
+   Encoder   <- The chosen encoder format (run HandBrakeCLI --help to see list of available encoder formats)
+   Preset    <- The HandBrakeCLI presets (run HandBrakeCLI -z to see available video presets)
+```
 
 ```
    make start 
