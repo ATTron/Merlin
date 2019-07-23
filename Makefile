@@ -8,6 +8,9 @@ create:
 	cd ./encoder && \
 	GOOS=linux go build -o ../merlin
 
+start:
+	./merlin
+
 deps:
 ifeq (, $(shell which HandBrakeCLI))
 	$(error "HandBrakeCLI is required but not found!")
