@@ -1,4 +1,4 @@
-# Merlin
+# Merlin [![Go Report Card](https://goreportcard.com/badge/github.com/attron/merlin)](https://goreportcard.com/report/github.com/attron/merlin)
 Merlin is a video encoder that automatically monitors for new video files and begins converting them via the HandBrakeCLI
 
 ## Setup
