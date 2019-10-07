@@ -2,5 +2,6 @@
   "WatchDir": "/Users/encoder/Desktop",
   "OutputDir":  "/Users/enocder/",
   "Encoder": "x264",
-  "Preset": "Fast 1080p30"
+  "Preset": "Fast 1080p30",
+  "Format": "av_mkv"
 }

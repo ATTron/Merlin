@@ -22,9 +22,9 @@ The config.json file takes the following arguments:
    OutputDir <- Directory that Merlin will store output files
    Encoder   <- The chosen encoder format (run HandBrakeCLI --help to see list of available encoder formats)
    Preset    <- The HandBrakeCLI presets (run HandBrakeCLI -z to see available video presets)
+   Format    <- The output format for the encoded files (av_mp4, av_mkv, av_webm)
 ```
 
 ```
    make start 
 ```
-

@@ -45,7 +45,7 @@ func handleEvent(e notify.EventInfo) {
 			go encode(e.Path(), done)
 			d := <-done
 			if d {
-				log.Printf("Encoding Complete: %s", fn[:strings.LastIndex(fn, ".")]+".m4v")
+				log.Printf("Encoding Complete: %s", fn[:strings.LastIndex(fn, ".")]+config.Format)
 			}
 		} else {
 			log.Printf("File type %s is not a supported video format\n", ext)

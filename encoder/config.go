@@ -12,6 +12,7 @@ type Config struct {
 	OutputDir string
 	Encoder   string
 	Preset    string
+	Format    string
 }
 
 // LoadConfig - used to import configuration
@@ -24,5 +25,13 @@ func LoadConfig() Config {
 	}
 	jp := json.NewDecoder(cf)
 	jp.Decode(&config)
+	switch config.Format {
+	case "av_mp4":
+		config.Format = ".m4v"
+	case "av_mkv":
+		config.Format = ".mkv"
+	case "av_webm":
+		config.Format = ".webm"
+	}
 	return config
 }

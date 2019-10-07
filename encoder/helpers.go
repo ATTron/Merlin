@@ -24,7 +24,7 @@ func setupLogging() {
 	if err != nil {
 		log.Fatal("Cannot create log file!")
 	}
-	lw, err := syslog.New(syslog.LOG_NOTICE, "MERLIN-ENCODER")
+	lw, err := syslog.New(syslog.LOG_NOTICE, "merlin")
 	mw := io.MultiWriter(os.Stdout, lw, f)
 	if err == nil {
 		log.SetOutput(mw)
