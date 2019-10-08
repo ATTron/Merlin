@@ -28,3 +28,15 @@ The config.json file takes the following arguments:
 ```
    make start 
 ```
+
+## Building for development
+**In order to accurately test the functionality of merlin you will need to run it on a LINUX machine**
+```
+    make development
+```  
+
+## Contributing
+[Contributions](https://github.com/attron/merlin/issues?q=is%3Aissue+is%3Aopen) welcome. If interested,fork this repo and send submit a PR.
+
+## License
+MIT License, see [LICENSE](https://github.com/attron/merlin/blob/master/LICENSE)
