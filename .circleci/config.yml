@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build_go_13_1:
+    docker:
+      - image: circleci/golang:1.13.1
+    working_directory: /go/src/github.com/attron/merlin
+    steps:
+      - checkout
+      - run: go build encoder/*.go
+workflows:
+  version: 2
+  workflow:
+    jobs:
+    - build_go_13_1
