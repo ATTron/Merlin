@@ -11,6 +11,8 @@ create:
 start:
 	./merlin
 
+development: create install start
+
 deps:
 ifeq (, $(shell which HandBrakeCLI))
 	$(error "HandBrakeCLI is required but not found!")

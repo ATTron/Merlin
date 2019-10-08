@@ -5,7 +5,7 @@ Merlin is a video encoder that automatically monitors for new video files and be
 **Currently this project only supports Linux as it uses the inotify API for file system monitoring**
 
 * Pull latest release
-    * ``` wget https://github.com/ATTron/merlin/archive/1.0.0.zip```
+    * ``` git clone https://github.com/ATTron/merlin.git```
 
 * Install [HandBrakeCLI](https://handbrake.fr/downloads.php)
 
@@ -28,3 +28,15 @@ The config.json file takes the following arguments:
 ```
    make start 
 ```
+
+## Building for developers
+**Developers wishing to contribute should ensure they are in a LINUX environment in order for proper functionality to be seen**
+```
+    make development
+```  
+
+## Contributing
+[Contributions](https://github.com/attron/merlin/issues?q=is%3Aissue+is%3Aopen) are welcome, if you are interested please fork this repo and create a PR.
+
+## License
+MIT License, see [LICENSE](https://github.com/attron/merlin/blob/master/LICENSE)
