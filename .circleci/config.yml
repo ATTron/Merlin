@@ -3,6 +3,8 @@ jobs:
   build_go_13_1:
     docker:
       - image: circleci/golang:1.13.1
+      environment:
+          GO111MODULE: "on"
     working_directory: /go/src/github.com/attron/merlin
     steps:
       - checkout
