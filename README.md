@@ -6,7 +6,7 @@ Merlin is a video encoder that automatically monitors for new video files and be
 
 * Pull latest release or clone repo
     * ``` git clone https://github.com/attron/merlin.git```  
-    * ``` wget https://github.com/ATTron/merlin/archive/1.x.x.zip```
+    * ``` wget https://github.com/ATTron/merlin/releases/download/1.x.x/merlin-linux.tar.gz```
 
 * Install [HandBrakeCLI](https://handbrake.fr/downloads.php)
 
