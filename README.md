@@ -9,6 +9,7 @@ Merlin is a video encoder that automatically monitors for new video files and be
     * ``` wget https://github.com/ATTron/merlin/releases/download/1.x.x/merlin-linux.tar.gz```
 
 * Install [HandBrakeCLI](https://handbrake.fr/downloads.php)
+    * If you are on RHEL, CentOS, or Debian you can use the Makefile if you do not have HandBrakeCLI installed ```make install handbrake```
 
 * Install and setup default configuration
 ```
@@ -24,14 +25,16 @@ The config.json file takes the following arguments:
    Encoder   <- The chosen encoder format (run HandBrakeCLI --help to see list of available encoder formats)
    Preset    <- The HandBrakeCLI presets (run HandBrakeCLI -z to see available video presets)
    Format    <- The output format for the encoded files (av_mp4, av_mkv, av_webm)
-```
+```  
 
+* Start merlin  
+**You may need to run merlin as sudo if you are getting a permission denied error**  
 ```
    make start 
 ```
 
 ## Building for development
-**In order to accurately test the functionality of merlin you will need to run it on a LINUX machine**
+**In order to accurately test the functionality of merlin you will need to run it on a LINUX machine with golang installed**
 ```
     make development
 ```  
