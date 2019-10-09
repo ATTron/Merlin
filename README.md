@@ -9,7 +9,7 @@ Merlin is a video encoder that automatically monitors for new video files and be
     * ``` wget https://github.com/ATTron/merlin/releases/download/1.x.x/merlin-linux.tar.gz```
 
 * Install [HandBrakeCLI](https://handbrake.fr/downloads.php)
-    * If you are on RHEL, CentOS, or Debian you can use the Makefile if you do not have HandBrakeCLI installed ```make install handbrake```
+    * If you are on RHEL, CentOS, or Debian you can use the Makefile if you do not have HandBrakeCLI installed ```make install-handbrake```
 
 * Install and setup default configuration
 ```
@@ -40,7 +40,7 @@ The config.json file takes the following arguments:
 ```  
 
 ## Contributing
-[Contributions](https://github.com/attron/merlin/issues?q=is%3Aissue+is%3Aopen) welcome. If interested,fork this repo and send submit a PR.
+[Contributions](https://github.com/attron/merlin/issues?q=is%3Aissue+is%3Aopen) welcome. If interested,fork this repo and submit a PR.
 
 ## License
 MIT License, see [LICENSE](https://github.com/attron/merlin/blob/master/LICENSE)
