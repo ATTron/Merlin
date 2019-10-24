@@ -12,7 +12,10 @@ var config Config
 
 func main() {
 	setupLogging()
-	config = LoadConfig()
+	config, err := LoadConfig()
+	if err != nil {
+		return
+	}
 
 	c := make(chan notify.EventInfo, 1)
 	done := make(chan bool)
