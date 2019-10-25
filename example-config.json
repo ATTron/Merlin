@@ -1,8 +1,8 @@
 {
   "WatchDir": "/Users/encoder/Desktop",
-  "OutputDir":  "/Users/enocder/",
+  "OutputDir": "/Users/enocder/",
   "Encoder": "x264",
   "Preset": "Fast 1080p30",
   "Format": "av_mkv",
-  "Args": ["--verbose", "2", "--decomb", "bob"]
+  "Args": ["--verbose", "2", "--decomb=bob"]
 }

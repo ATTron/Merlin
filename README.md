@@ -25,10 +25,11 @@ The config.json file takes the following arguments:
    Encoder   <- The chosen encoder format (run HandBrakeCLI --help to see list of available encoder formats)
    Preset    <- The HandBrakeCLI presets (run HandBrakeCLI -z to see available video presets)
    Format    <- The output format for the encoded files (av_mp4, av_mkv, av_webm)
-```  
+   Args      <- Extra arguments passed to HandBrakeCLI
+```
 
 * Start merlin  
-**You may need to run merlin as sudo if you are getting a permission denied error**  
+**You may need to run merlin as sudo if you are getting a permission denied error**
 ```
    make start 
 ```
