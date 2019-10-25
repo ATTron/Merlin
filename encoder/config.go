@@ -13,6 +13,7 @@ type Config struct {
 	Encoder   string
 	Preset    string
 	Format    string
+	Args      []string
 }
 
 // LoadConfig - used to import configuration
